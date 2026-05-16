@@ -1,7 +1,7 @@
 
-const LinkItem: React.FC<{ href: string, title: string }> = ({ href, title }) => {
+const LinkItem: React.FC<{ href: string, title: string, styleclass: string }> = ({ href, title, styleclass }) => {
   return (
-    <a href={href} target="_blank" rel="noopener noreferrer">
+    <a className={styleclass} href={href} target="_blank" rel="noopener noreferrer">
       {title}
     </a>
   )
