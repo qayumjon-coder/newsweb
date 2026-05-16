@@ -1,4 +1,4 @@
-function NewsCard() {
+const NewsCard: React.FC = () => {
   return (
     <div>
         <img src="#" alt="#" />

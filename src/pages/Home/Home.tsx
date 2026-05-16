@@ -1,6 +1,6 @@
 import Header from "../../components/Header"
 
-function Home() {
+const Home: React.FC = () => {
   return (
     <>
         <Header />
