@@ -1,6 +1,11 @@
+import Header from "../../components/Header"
+
 const AllNews: React.FC = () => {
   return (
-    <div>AllNews</div>
+    <div>
+      <Header />
+      AllNews
+    </div>
   )
 }
 

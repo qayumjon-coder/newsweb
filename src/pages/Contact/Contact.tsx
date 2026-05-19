@@ -1,6 +1,11 @@
+import Header from "../../components/Header"
+
 const Contact: React.FC = () => {
   return (
-    <div>Contact</div>
+    <div>
+        <Header />
+        Contact
+    </div>
   )
 }
 

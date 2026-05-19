@@ -1,6 +1,12 @@
+import Header from "../../components/Header"
+
 const Blog: React.FC = () => {
   return (
-    <div>Blog</div>
+    <div>
+        <Header />
+
+        Blog
+    </div>
   )
 }
 
