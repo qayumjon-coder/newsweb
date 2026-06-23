@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
 @import "tailwindcss";
 
 @theme{
     --font-satisfy: "Satisfy", sans-serif;
+    --font-eater: "Eater", sans-serif;
     --shadow-1xl: 0 0 20px rgba(0,0,0,0.105)
 }
