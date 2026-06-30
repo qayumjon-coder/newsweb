@@ -23,11 +23,11 @@ const Header: React.FC = () => {
         <h2 className="font-bold text-2xl">LOGOLOGO</h2>
 
         <LinkItem href="https://github.com/" isBlank="_blank" title="GitHub" 
-        styleclass="bg-blue-500 hover:bg-blue-600 
+        styleclass="bg-blue-600 hover:bg-blue-600 
         text-white py-2 px-8 rounded-full "/>
       </div>
 
-      <nav className="w-xl text-center bg-blue-500/80 p-1 rounded-full">
+      <nav className="w-xl text-center bg-blue-500/80 p-1 backdrop-blur-xs rounded-full">
         <ul className="flex gap-1 items-center">
           {navLinkData.map(item => {
             return <NavLink key={item.id} className={`px-8.5 py-1 rounded-full ${location.pathname === item.href ? 'bg-white text-blue-500' : 'hover:bg-blue-500'}`} to={item.href}>
